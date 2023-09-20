@@ -1,0 +1,128 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial;
+    padding: 10px;
+    background: rgba(128, 128, 128, 0.192);
+}
+
+/*Header/Blog Tidle*/
+.header {
+    padding: 10px;
+    text-align: center;
+    background-color: white;
+    color: #21de89;
+}
+
+.header h1 {
+    font-size: 40px;
+}
+
+.header p {
+    font-size: 20px;
+}
+
+.menu {
+    overflow: hidden;
+    background-color: #1faa6b;
+}
+
+.menu a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+}
+
+.menu a:hover {
+    background-color: #105e3a;
+    color: white;
+}
+
+.leftcolumn {
+    float: left;
+    width: 75%;
+}
+
+.rightcolumn {
+    float: left;
+    width: 25%;
+    padding-left: 20px;
+}
+
+.images {
+    width: 100%;
+    height: 200px;
+}
+
+.card-games {
+    width: 30%;
+    background-color: white;
+    padding: 20px;
+    margin: 20px;
+    float: left;
+}
+
+.row::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.card {
+    background-color: white;
+    padding:10px;
+    margin-top: 20px;
+    text-align:center;
+}
+.footer{
+    padding: 10px;
+    text-align: center;
+    background: white;
+    margin-top: 10px;
+}
+p.details {
+    padding: 20px;
+    text-align: justify;
+    font-size: 20px;  
+    font-family: Arial, Helvetica, sans-serif; 
+    
+
+}
+.leftcolumn h2{
+    font-size: px;
+}
+.imggame{
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1224px;
+    height: 558px;
+
+}
+
+.cauhinhcoban h2{
+ font-size: 25px;
+}
+.cauhinhleft{
+    float: left;
+    width: 48%;
+    
+}
+.cauhinhright{
+    float: right;
+    width: 48%;
+}
+p.cauhinh{
+    font-family: Arial;
+    font-size: 17px;
+}
+p.chuthich{
+font-style: italic;
+text-align: center;
+}
